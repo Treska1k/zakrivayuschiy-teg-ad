@@ -234,8 +234,7 @@
   box-shadow: 2px 2px 0px 0px #000;
 }
 
-.button__text,
-.floppy__button__text {
+.button__text {
   font-family: var(--additional-font), sans-serif;
   font-size: 14px;
   color: var(--buttons-text-color);
@@ -270,6 +269,16 @@
   block-size: 193px;
   box-sizing: border-box;
   padding: 30px;
+  overflow: hidden;
+}
+
+.dialog__window[open] form {
+  margin: 0;
+  inline-size: 100%;
+}
+
+.dialog__window[open] .floppy__button {
+  margin-bottom: 0px;
 }
 
 .dialog__window[open]::backdrop {

@@ -611,24 +611,24 @@
         <svg viewBox="0 0 21 21" class="floppy__icon__small">
           <use href="svg/floppy.svg#floppy" />
         </svg>
-        <span class="floppy__button__text"> Сохранить на память </span>
+        <span class="button__text floppy__button__text">
+          Сохранить на память
+        </span>
       </button>
       <dialog id="dialog__window__id" class="dialog__window">
         <div class="window__text__container">
           <svg viewBox="0 0 39 39" class="floppy__icon__large">
             <use href="svg/floppy.svg#floppy" />
           </svg>
-          <p class="floppy__button__text dialog__text">
+          <p class="button__text floppy__button__text dialog__text">
             Вставьте дискету, чтобы продолжить
           </p>
         </div>
-        <button
-          class="floppy__button dialog__floppy__button"
-          type="button"
-          onclick="window['dialog__window__id'].close()"
-        >
-          <span class="floppy__button__text">OK</span>
-        </button>
+        <form method="dialog">
+          <button class="floppy__button dialog__floppy__button" type="submit">
+            <span class="button__text floppy__button__text">OK</span>
+          </button>
+        </form>
       </dialog>
     </main>
     <script src="./scripts/like.js"></script>
