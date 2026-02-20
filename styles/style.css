@@ -272,10 +272,11 @@
   overflow: hidden;
 }
 
+/* 
 .dialog__window[open] form {
   margin: 0;
   inline-size: 100%;
-}
+} */
 
 .dialog__window[open] .floppy__button {
   margin-bottom: 0px;

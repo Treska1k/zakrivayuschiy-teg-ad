@@ -624,11 +624,18 @@
             Вставьте дискету, чтобы продолжить
           </p>
         </div>
-        <form method="dialog">
+        <button
+          class="floppy__button dialog__floppy__button"
+          type="button"
+          onclick="window['dialog__window__id'].close()"
+        >
+          <span class="button__text floppy__button__text">OK</span>
+        </button>
+        <!-- <form method="dialog">
           <button class="floppy__button dialog__floppy__button" type="submit">
             <span class="button__text floppy__button__text">OK</span>
           </button>
-        </form>
+        </form> -->
       </dialog>
     </main>
     <script src="./scripts/like.js"></script>
