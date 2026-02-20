@@ -251,7 +251,11 @@
   margin-bottom: 105px;
 }
 
-.floppy__button__text {
+.dialog__floppy__button .button__text {
+  line-height: 90%;
+}
+
+.window__text__container .button__text {
   line-height: 90%;
 }
 
