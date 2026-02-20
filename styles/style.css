@@ -276,10 +276,6 @@
   overflow: hidden;
 }
 
-body:has(.dialog__window[open]) {
-  overflow: hidden;
-}
-
 /* 
 .dialog__window[open] form {
   margin: 0;
