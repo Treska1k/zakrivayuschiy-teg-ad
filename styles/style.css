@@ -256,7 +256,7 @@
 }
 
 .window__text__container .button__text {
-  line-height: 90%;
+  line-height: 150%;
 }
 
 .dialog__window[open] {
@@ -273,6 +273,10 @@
   block-size: 193px;
   box-sizing: border-box;
   padding: 30px;
+  overflow: hidden;
+}
+
+body:has(.dialog__window[open]) {
   overflow: hidden;
 }
 
